@@ -1,0 +1,138 @@
+body {
+    background-image: url(eikones/treeChristmas.jpeg);
+    font-family: sans-serif;
+    padding: 20px;  
+  }
+  
+article{
+  border:black solid 1px;
+  width: 100%;
+  padding: 7px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: red;
+  padding-right: 0px;
+}
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: red;
+    border-color: black;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .availability{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 49%;
+
+  }
+  .price {
+    text-align: right;
+    width:200px;
+    width: 49%;
+  }
+  .scr{
+    display: inline-block;
+    margin-top: 15px;
+    pointer-events: none;
+  }
+  .images{
+    display: inline-block;
+    width: 150px;
+  }
+  
+
+  .bot{
+    flex-wrap: wrap;
+    display: flex;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  a:active {
+    color: white;
+  }
+  .social{
+    display: inline-block;
+    height: 50px;
+    margin: auto;
+    width: 50px;
+    padding: 10px;
+    padding-left: 0px;
+    border-radius: 15px;
+  }
